@@ -1,2 +1,26 @@
 Alt + F, d, e = create new file
 Ctrl + Shift + N = create new folder
+
+
+open your project in vs code and open vs code terminal
+then paste it for json server install
+
+npm install -g json-server
+
+
+then run json server db.json file
+
+json-server --watch db.json
+
+
+example data:
+
+{
+  "posts": [
+    { "id": 1, "title": "json-server", "author": "typicode" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 }
+  ],
+  "profile": { "name": "typicode" }
+}
